@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TV Show Project | Nazanin Saedi</title>
+  <title>TV Show Project | Hadika Malik (HadikaMalik)</title>
   <link href="style.css" rel="stylesheet">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
-  <script defer src="episodes.js"></script>
-
-  <!-- Loads YOUR javascript code -->
-  <script defer src="script.js"></script>
 </head>
-
+<header>
 <body>
-  <section id="film-container">
-    <select name="list" id="select">
-      <option value="" selected disabled>Select Your Episodes </option>
-    </select>
-    <label>
-      <input type="search" id="q" name="q" placeholder="Search term" /> 
-    </label>
-    <span id="search-info"></span>
-  </section>
   <div id="root"></div>
+  <h1>TV Shows</h1>
+      <form class="row">
+        <input id="searchBar" placeholder="Search">
+      </form>
+  <input type="text" id="search" placeholder="Search episodes">
+  <p id="episode-count"></p>
+  <select id="select-episode">
+    <option value="">Select Episode</option>
+  </select>
+  <script src="episodes.js"></script>
+  <script src="script.js"></script>
 </body>
-
+<footer>
+  <p>Data sourced from <a href="https://www.tvmaze.com/shows/82/game-of-thrones/episodes">TVMaze.com</a></p>
+</footer>
 </html>

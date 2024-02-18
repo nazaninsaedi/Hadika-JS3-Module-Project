@@ -1,4 +1,4 @@
-body{
+body {
   background-color: rgba(211, 211, 211, 0.39);
 }
 
@@ -6,11 +6,12 @@ body{
   color: black;
   display: grid;
   gap: 25px;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 10px 40px;
+  
 }
 
-#title-section{
+#title-section {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -20,17 +21,17 @@ body{
   padding: 0px 5px;
 }
 
-#box-border{
+#box-border {
   border: black solid 2px;
   border-spacing: 10px;
   box-shadow: none;
   border-radius: 10px;
-  padding: 5px; 
+  padding: 5px;
   margin-bottom: 25px;
   justify-content: space-evenly;
 }
 
-#season-number{
+#season-number {
   font-weight: bold;
 }
 
@@ -41,11 +42,11 @@ section {
   align-content: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 2px 2px 8px #f38787ad;
+  box-shadow: 2px 2px 8px #888888ad;
   padding: 20px;
 }
 
-#summary{
+#summary {
   color: rgba(128, 128, 128, 0.932);
   margin: 0px 30px;
 }
